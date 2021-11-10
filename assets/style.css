@@ -5,10 +5,12 @@
 }
 
 body {
-    color:rgb(16, 163, 119);
+    color:white;
+    background-color:rgb(21, 52, 109);
     font-family:Arial, Helvetica, sans-serif;
 }
 
+/* header section */
 header {
     display: flex;
     justify-content: space-between;
@@ -41,3 +43,85 @@ header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
 }
+/* header end */
+
+/* about me section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 50px;
+    border: 3px dashed orange;
+    text-shadow: 0 0 35px rgba(0,0,0,1);
+}
+    .about::after {
+        content:"";
+        height: 43%;
+        width: 97.5%;
+        top: 120px;
+        left: 20px;
+        position: absolute;
+        background-image: url(./images/spacebear.JPG);
+        background-size: cover;
+        background-position: 25% 28%;
+        opacity: 0.7;
+        z-index: 1;
+    }
+
+.about h2 {
+    font-size: 38px;
+    font-style: italic;
+    color: orange; 
+    z-index: 100;
+}
+
+
+.about article {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    z-index: 100;
+}
+
+/* about me end */
+
+/* work sample section */
+.work-samples {
+
+}
+
+.primary-sample {
+
+}
+
+.secondary-sample {
+
+}
+/* work sample end */
+
+/* contact section */
+.contact {
+    margin: 25px;
+    padding: 15px;
+    border: 3px dashed orange;
+}
+
+.contact h2 {
+    font-size: 38px;
+    color: orange;
+    font-style: italic;
+    
+}
+.contact address {
+    font-weight: bolder;
+    line-height: 2;
+}
+
+/* footer section */
+footer {
+    padding: 10px 25px;
+    margin: 5px;
+    font-style: italic;
+    font-weight: lighter;
+}
+/* footer end */
