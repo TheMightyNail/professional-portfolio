@@ -47,7 +47,8 @@ header nav ul li a {
 
 /* about me section */
 .about {
-    display: flex;
+    display: block;
+    position: relative;
     flex-wrap: wrap;
     margin: 15px;
     padding: 50px;
@@ -56,10 +57,10 @@ header nav ul li a {
 }
     .about::after {
         content:"";
-        height: 43%;
-        width: 97.5%;
-        top: 120px;
-        left: 20px;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
         position: absolute;
         background-image: url(./images/spacebear.JPG);
         background-size: cover;
@@ -73,6 +74,7 @@ header nav ul li a {
     font-style: italic;
     color: orange; 
     z-index: 100;
+    position: relative;
 }
 
 
@@ -80,6 +82,7 @@ header nav ul li a {
     font-size: 20px;
     line-height: 1.5;
     font-weight: bold;
+    position: relative;
     z-index: 100;
 }
 
