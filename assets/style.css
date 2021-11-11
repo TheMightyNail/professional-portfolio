@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 35px;
-    background-color: rgb(16, 163, 119);
+    background-color: rgba(16, 163, 119, 0.7);
     position: sticky;
     top: 0;
     font-style: italic;
@@ -53,6 +53,15 @@ header nav ul li a {
         border-radius: 15px;
     }
 /* header end */
+
+/* hero section */
+.hero{
+    height: 700px;
+    background-image: url(./images/dimensiondoor.JPG);
+    background-size: cover;
+    background-position: 25% 45%;
+    opacity: 0.7;
+}
 
 /* about me section */
 .about {
